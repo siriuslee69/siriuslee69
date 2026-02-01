@@ -1,7 +1,7 @@
 import std/[os, strutils]
 
 version       = "0.1.0"
-author        = "n1ght"
+author        = "siriuslee69"
 description   = "siriuslee69"
 license       = "UNLICENSED"
 srcDir        = "src"
