@@ -3,6 +3,7 @@
 Commit Message: add progress template
 
 Features (Planned):
+- Add JSON config file for settings (centralized/NixOS integration)
 - TBD
 
 Features (Done):
@@ -14,3 +15,4 @@ Features (In Progress):
 Notes:
 - Last change/problem: TBD
 - Fix attempts: TBD
+
