@@ -51,16 +51,16 @@ task find, "Use local clones for submodules in parent folder":
 requires "nim >= 1.6.0", "owlkettle >= 3.0.0", "illwill >= 0.4.0"
 
 task buildDesktop, "Build the GTK4 desktop app":
-  exec "nim c -d:release src/siriuslee69/frontend/desktop/app.nim"
+  exec "nim c -d:release src/siriuslee69/interfaces/frontend/desktop/app.nim"
 
 task runDesktop, "Run the GTK4 desktop app":
-  exec "nim c -r src/siriuslee69/frontend/desktop/app.nim"
+  exec "nim c -r src/siriuslee69/interfaces/frontend/desktop/app.nim"
 
 task runCli, "Run the CLI entrypoint":
-  exec "nim c -r src/siriuslee69/frontend/cli/app_cli.nim"
+  exec "nim c -r src/siriuslee69/interfaces/frontend/cli/app_cli.nim"
 
 task runTui, "Run the TUI entrypoint":
-  exec "nim c -r src/siriuslee69/frontend/tui/app_tui.nim"
+  exec "nim c -r src/siriuslee69/interfaces/frontend/tui/app_tui.nim"
 
 task test, "Run unit tests":
   exec "nim c -r tests/test_smoke.nim"

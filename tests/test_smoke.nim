@@ -5,7 +5,7 @@
 # =========================================
 
 import std/[unittest, strutils]
-import ../src/siriuslee69/backend/core
+import ../src/siriuslee69/interfaces/backend/core
 
 suite "siriuslee69 scaffold":
   test "backend description":

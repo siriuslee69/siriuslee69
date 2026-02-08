@@ -5,7 +5,7 @@
 # =========================================
 
 import illwill
-import ../../backend/core
+import ../../interfaces/backend/core
 
 const
   AppName = "siriuslee69"

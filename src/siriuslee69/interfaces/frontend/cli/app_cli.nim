@@ -4,7 +4,7 @@
 # | Prints backend status for automation. |
 # =========================================
 
-import ../../backend/core
+import ../../interfaces/backend/core
 
 when isMainModule:
   let c = initBackend("siriuslee69")

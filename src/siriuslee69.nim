@@ -4,7 +4,7 @@
 # | Public exports for backend helpers.            |
 # ==================================================
 
-import siriuslee69/backend/core
+import siriuslee69/interfaces/backend/core
 
 export core
 
