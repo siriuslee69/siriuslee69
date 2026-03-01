@@ -1,4 +1,4 @@
-import std/[os, strutils]
+﻿import std/[os, strutils]
 
 version       = "0.1.0"
 author        = "siriuslee69"
@@ -65,4 +65,8 @@ task runTui, "Run the TUI entrypoint":
 task test, "Run unit tests":
   exec "nim c -r tests/test_smoke.nim"
 
+
+
+task smoke, "Run smoke tests":
+  exec "nim c -r ../tests/test_smoke.nim"
 
